@@ -1,13 +1,25 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
+use App\Models\Post;
 
 Route::get('/', function () {
     return view('pages/home', ['title' => 'Home']);
 });
 
-Route::get('/blog', function () {
-    return view('pages/blog', ['title' => 'Blog']);
+Route::get('/posts', function () {
+    return view('pages/posts',[
+        'title'=>'Blog',
+        'posts'=> Post::all()
+    ]);
+});
+Route::get('/posts/{slug}',function($slug){
+    $post = Post::find($slug);
+    return view('pages/post',[
+        'title'=>'Post',
+        'post'=>$post
+    ]);
 });
 
 Route::get('/contact', function () {

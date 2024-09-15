@@ -11,8 +11,8 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 </head>
 
-<body class="h-full">
-    <div class="min-h-full">
+<body class="h-full bg-white dark:bg-gray-900">
+    <div class="min-h-full ">
         <x-navbar />
         <x-header>{{ $title }}</x-header>
         <main>
