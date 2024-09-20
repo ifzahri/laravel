@@ -29,7 +29,7 @@
                             </svg>
                             Blog
                         </span>
-                        <span class="text-sm">{{ $post['date'] }}</span>
+                        <span class="text-sm">{{ $post->created_at->format('j F Y') }}</span>
                     </div>
                     <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a
                             href="#">{{ $post['title'] }}</a></h2>

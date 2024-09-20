@@ -14,8 +14,7 @@ Route::get('/posts', function () {
         'posts'=> Post::all()
     ]);
 });
-Route::get('/posts/{slug}',function($slug){
-    $post = Post::find($slug);
+Route::get('/posts/{post:slug}',function(Post $post){
     return view('pages/post',[
         'title'=>'Post',
         'post'=>$post
