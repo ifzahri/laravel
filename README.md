@@ -40,7 +40,15 @@ The way that I made this project different is that I use [Flowbite](https://flow
 
 ## Changelog
 ```
-11/09/2024
-- feat: add changes
-- feat: initial commit
+2024-09-22 - docs: update Changelog
+2024-09-22 - feat: implement factories
+2024-09-20 - Merge pull request #1 from ifzahri/dependabot/npm_and_yarn/vite-5.4.6
+2024-09-20 - chore(deps-dev): bump vite from 5.4.3 to 5.4.6
+2024-09-20 - chore: implement ORM on models
+2024-09-20 - feat: add migrations and seeders
+2024-09-20 - style: add styling to post and posts
+2024-09-15 - feat: add posts
+2024-09-11 - docs: update README
+2024-09-11 - feat: add changes
+2024-09-04 - feat: initial commit
 ```
