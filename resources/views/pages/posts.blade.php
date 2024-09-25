@@ -40,7 +40,7 @@
                                 src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
                                 alt="Jese Leos avatar" />
                             <span class="font-medium dark:text-white">
-                                {{ $post['author'] }}
+                                {{$post->author->name}}
                             </span>
                         </div>
                         <a href="/posts/{{ $post['slug'] }}"
