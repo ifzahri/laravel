@@ -40,6 +40,12 @@ The way that I made this project different is that I use [Flowbite](https://flow
 
 ## Changelog
 ```
+2024-09-25 - docs: update Changelog
+2024-09-25 - feat: add prettier
+2024-09-25 - Merge pull request #2 from ifzahri/dependabot/npm_and_yarn/rollup-4.22.4
+2024-09-25 - chore(deps-dev): bump rollup from 4.21.2 to 4.22.4
+2024-09-25 - feat: add categories
+2024-09-25 - feat: apply factories on user and posts using tinker
 2024-09-22 - docs: update Changelog
 2024-09-22 - feat: implement factories
 2024-09-20 - Merge pull request #1 from ifzahri/dependabot/npm_and_yarn/vite-5.4.6
